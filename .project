@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PSOC62_Weather_station</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>com.cypress.studio.app.cymodusnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>abs_rtos</name>
+			<value>file:/C:/Users/eslam/mtw2/mtb_shared/abstraction-rtos/release-v1.7.4/include</value>
+		</variable>
+		<variable>
+			<name>emwin</name>
+			<value>file:/C:/Users/eslam/mtw2/mtb_shared/emwin/release-v6.32.0/GUI/COMPONENT_HARDFP/COMPONENT_EMWIN_OSTS</value>
+		</variable>
+	</variableList>
+</projectDescription>
